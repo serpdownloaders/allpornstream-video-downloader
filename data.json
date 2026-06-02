@@ -1,0 +1,213 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/allpornstream-downloader",
+  "serply_link": "https://serp.ly/allpornstream-downloader",
+  "app_name": "Allpornstream Video Downloader",
+  "short_description": "Download & Save Allpornstream Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "Allpornstream Downloader is a browser extension designed for AllPornStream's aggregator-style post pages, where video playback often routes through multiple external hosts. Rather than manually hunting through embeds or inspecting page sources, this tool provides a streamlined download workflow directly in your browser. It works on AllPornStream pages and supports a broad range of external video hosts that the site commonly uses for embedded playback.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/allpornstream-downloader-fullscreen-01-bbc4f983e6.webp",
+    "https://apps.serp.co/media/optimized-products/allpornstream-downloader-fullscreen-02-7a4ab7c651.webp",
+    "https://apps.serp.co/media/optimized-products/allpornstream-downloader-fullscreen-03-7bd28fb0ec.webp",
+    "https://apps.serp.co/media/optimized-products/allpornstream-downloader-fullscreen-04-3144d2fdbe.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "What pages is this extension built for?",
+      "answer": "The strongest fit is AllPornStream post pages where the visible page may wrap or redirect playback through another host."
+    },
+    {
+      "question": "Why does this extension need so many host permissions?",
+      "answer": "Because AllPornStream behaves like an aggregator. The page can depend on many different external video hosts and delivery domains to serve the actual video content."
+    },
+    {
+      "question": "Is this release ready for daily use?",
+      "answer": "The target is verified, but the handoff still needs adapter probing and has no confidence rating yet. This is a released candidate with ongoing review."
+    },
+    {
+      "question": "Can I use this on other similar sites?",
+      "answer": "The extension is specifically configured for AllPornStream and its associated hoster ecosystem. It may not work on other aggregator sites."
+    },
+    {
+      "question": "What if the video does not download?",
+      "answer": "Some external hosters may not expose a usable video source. Try a different post page or contact support if the issue persists."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Why does this extension need so many host permissions?"
+    },
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Works on AllPornStream post pages with embedded video content",
+    "Supports a wide range of external video hosters commonly used by the platform",
+    "Browser-based workflow — no external software required",
+    "One-click download initiation when a usable video source is detected",
+    "Player button integration for easy access on supported pages",
+    "Designed for AllPornStream post pages and their external embed ecosystem",
+    "Broad host coverage including StreamTape, DoodStream, Netu, VOE, HQQ, LuluVid, PlayMogo, and more",
+    "Player button integration on supported video wrappers",
+    "Page-level media discovery using standard metadata and video elements",
+    "Download initiation from the browser popup interface",
+    "Offscreen download handling for smoother background processing",
+    "Context menu support for quick access on compatible pages",
+    "Notification alerts when downloads complete or encounter errors"
+  ],
+  "content": {
+    "why": [
+      "AllPornStream is not a typical video site. It operates like an aggregator, hosting post pages where the actual video playback is handled by a network of external embed hosts. This means a single post can depend on services like StreamTape, DoodStream, Netu, VOE, HQQ, LuluVid, PlayMogo, and many others. For viewers who want to save a video for offline use, this setup creates a frustrating wall — the real media is never in plain sight on the page itself.",
+      "Allpornstream Downloader is built for exactly this kind of target. It is configured to work with AllPornStream's post pages and the wide ecosystem of external hosters the site relies on. Instead of chasing embeds or opening developer tools, you get a browser-based workflow that tries to detect the video source and offer a download option directly from the page. The goal is to turn a messy multi-host experience into a clean one-click action."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open AllPornStream and go to a supported video post page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Open AllPornStream in your browser and navigate to a post page that contains a video.",
+      "Make sure the video player is visible and playback has started or is ready.",
+      "Click the extension icon in your browser toolbar to open the popup.",
+      "The popup will attempt to detect the video source from the current page.",
+      "If a usable source is found, you will see available quality options.",
+      "Select the quality you want and click the download button.",
+      "The extension will start the download process in the background.",
+      "Once complete, save the MP4 file to your preferred location."
+    ],
+    "supported_formats": [
+      "Input: Video sources embedded on AllPornStream post pages, including content from supported external hosters",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "AllPornStream viewers who want to save videos for offline access",
+      "Users who browse aggregator-style post pages with embedded external hosts",
+      "People looking for a browser-based download workflow without third-party software",
+      "Viewers who want to archive content from AllPornStream for personal use"
+    ],
+    "use_cases": [
+      "Saving a video from an AllPornStream post page for offline viewing",
+      "Archiving content that may be removed or become unavailable later",
+      "Building a personal collection of videos from the platform",
+      "Watching content on devices without reliable internet access",
+      "Avoiding repeated streaming of the same video to save bandwidth"
+    ],
+    "troubleshooting": [
+      "No video source detected Make sure the video player on the page has loaded and playback has started. Try refreshing the page and clicking the extension popup again.",
+      "Download does not start Check that your browser allows downloads from the extension. You may need to adjust your browser's download settings or disable conflicting extensions.",
+      "The extension popup shows no options The current page may not be a supported AllPornStream post page, or the embedded video hoster may not be fully compatible yet. Try navigating directly to a post page with a known video player.",
+      "Download appears to hang or stall Large files may take longer to process. Wait a few moments and check the browser's download manager. If the issue persists, try a lower quality option.",
+      "Player button does not appear The player button is designed for specific video wrapper configurations. If it does not appear, use the popup interface instead to initiate the download."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported AllPornStream page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "AllPornStream uses many external hosters, and not all may be fully compatible",
+      "The extension is under active review and may receive updates to improve hoster coverage"
+    ],
+    "about": [
+      "AllPornStream is an aggregator-style video platform that hosts post pages linking to embedded content from a wide network of external video hosters. This extension helps viewers navigate that complex embed ecosystem by providing a direct download workflow from the post page itself."
+    ]
+  },
+  "serpx_link": "https://serpx.link/allpornstream-downloader",
+  "github_topics": [
+    "allpornstream-download",
+    "allpornstream-downloader",
+    "allpornstream-video-downloader",
+    "allpornstream-video-downloader-online",
+    "allpornstream-video-downloader-mac",
+    "allpornstream-video-downloader-window",
+    "allpornstream-video-downloader-free",
+    "allpornstream-video-downloader-extension",
+    "allpornstream-video-downloader-app",
+    "allpornstream-video-downloader-chrome",
+    "allpornstream-video-downloader-from-url",
+    "how-to-download-allpornstream-videos",
+    "how-to-download-allpornstream-videos-mac",
+    "how-to-download-allpornstream-videos-windows",
+    "how-to-download-allpornstream-videos-online",
+    "how-to-download-allpornstream-videos-free",
+    "how-to-download-from-allpornstream",
+    "how-to-download-videos-from-allpornstream",
+    "download-allpornstream-videos",
+    "allpornstream-video-tutorial",
+    "save-allpornstream-videos",
+    "allpornstream-video-content-saver",
+    "how-to-download-allpornstream-videos-for-free"
+  ],
+  "hashtags": [
+    "#AllpornstreamDownload",
+    "#AllpornstreamDownloader",
+    "#AllpornstreamVideoDownloader",
+    "#AllpornstreamVideoDownloaderOnline",
+    "#AllpornstreamVideoDownloaderMac",
+    "#AllpornstreamVideoDownloaderWindow",
+    "#AllpornstreamVideoDownloaderFree",
+    "#AllpornstreamVideoDownloaderExtension",
+    "#AllpornstreamVideoDownloaderApp",
+    "#AllpornstreamVideoDownloaderChrome",
+    "#AllpornstreamVideoDownloaderFromURL",
+    "#HowToDownloadAllpornstreamVideos",
+    "#HowToDownloadAllpornstreamVideosMac",
+    "#HowToDownloadAllpornstreamVideosWindows",
+    "#HowToDownloadAllpornstreamVideosOnline",
+    "#HowToDownloadAllpornstreamVideosFree",
+    "#HowToDownloadFromAllpornstream",
+    "#HowToDownloadVideosFromAllpornstream",
+    "#DownloadAllpornstreamVideos",
+    "#AllpornstreamVideoTutorial",
+    "#SaveAllpornstreamVideos",
+    "#AllpornstreamVideoContentSaver",
+    "#HowToDownloadAllpornstreamVideosForFree"
+  ],
+  "youtube_tags": [
+    "Allpornstream Download",
+    "Allpornstream Downloader",
+    "Allpornstream Video Downloader",
+    "Allpornstream Video Downloader Online",
+    "Allpornstream Video Downloader Mac",
+    "Allpornstream Video Downloader Window",
+    "Allpornstream Video Downloader Free",
+    "Allpornstream Video Downloader Extension",
+    "Allpornstream Video Downloader App",
+    "Allpornstream Video Downloader Chrome",
+    "Allpornstream Video Downloader From URL",
+    "How To Download Allpornstream Videos",
+    "How To Download Allpornstream Videos Mac",
+    "How To Download Allpornstream Videos Windows",
+    "How To Download Allpornstream Videos Online",
+    "How To Download Allpornstream Videos Free",
+    "How To Download From Allpornstream",
+    "How To Download Videos From Allpornstream",
+    "Download Allpornstream Videos",
+    "Allpornstream Video Tutorial",
+    "Save Allpornstream Videos",
+    "Allpornstream Video Content Saver",
+    "How To Download Allpornstream Videos For Free"
+  ]
+}
